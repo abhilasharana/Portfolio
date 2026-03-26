@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhilasha Rana | Aspiring ML Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- GSAP Libraries for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="resume_b64.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Abhilasha Rana<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home section">
+            <div class="home-content">
+                <div class="name-profile-wrapper">
+                    <img src="inline_profile.png" alt="Profile Picture" class="inline-profile-img">
+                    <div class="text-group">
+                        <p class="greeting">Hello, I'm</p>
+                        <h1 class="name">Abhilasha Rana</h1>
+                    </div>
+                </div>
+                <h2 class="occupation">Aspiring <span class="highlight">ML Engineer</span></h2>
+                <p class="about-me">
+                    I am a passionate and dedicated individual diving into the world of Machine Learning and Artificial
+                    Intelligence. With a strong foundation in computer science and a relentless curiosity for
+                    data-driven algorithms, I continuously strive to build intelligent systems that solve real-world
+                    problems. Let's create the future together.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Explore Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="home-image">
+                <div class="image-wrapper">
+                    <!-- Profile Picture -->
+                    <img src="about_profile.png" alt="Profile Picture" id="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section dark-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am actively learning and applying state-of-the-art machine learning models to extract meaningful
+                    insights from vast amounts of data. My goal is to seamlessly integrate research-driven AI with
+                    impactful software engineering.</p>
+                <p>When I'm not training models, I'm analyzing data trends, optimizing algorithms, or building
+                    end-to-end intelligent applications.</p>
+            </div>
+        </section>
+
+        <!-- Educational Journey Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Educational Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Undergraduate Degree</h3>
+                        <p>Currently pursuing a Bachelor of Technology in Computer Science and Engineering from Lovely
+                            Professional University, with a CGPA of 7.0. The program has helped me build strong
+                            technical knowledge and practical skills in computing and software development.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intermediate Education</h3>
+                        <p>Completed my Intermediate education from Government Sen. Sec. School with Physics, Chemistry,
+                            Maths, and Computer Science, securing 85%. This stage further strengthened my interest in
+                            science, technology, and logical reasoning.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Matriculation</h3>
+                        <p>Completed my Matriculation from Angel’s Public High School with an outstanding 93%, building
+                            a strong academic foundation and developing discipline, consistency, and analytical
+                            thinking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills-wrapper">
+                <div class="skills-category">
+                    <h3 class="category-title">Technical Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-card">Machine Learning & Predictive Modeling</div>
+                        <div class="skill-card">Data Structures & Algorithms</div>
+                        <div class="skill-card">Python & C++ Development</div>
+                        <div class="skill-card">End-to-End Project Development</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Soft Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-card">Analytical Thinking</div>
+                        <div class="skill-card">Attention to Detail</div>
+                        <div class="skill-card">Collaborative Mindset</div>
+                        <div class="skill-card">Learning Agility</div>
+                        <div class="skill-card">Strategic Problem-Solving</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section dark-section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- Space for Screenshot -->
+                        <img src="project1.png" alt="Patient Segmentation System Screenshot" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Patient Segmentation System</h3>
+                        <p class="project-role">Role: Machine Learning Engineer</p>
+                        <p class="project-desc">Developed an end-to-end patient segmentation system aimed at improving
+                            preventive healthcare strategies using machine learning techniques. The project involved
+                            data preprocessing, feature engineering, and applying clustering algorithms to group
+                            patients based on health risk factors and patterns. The system enables early identification
+                            of high-risk groups, supporting proactive medical intervention. Focus was placed on building
+                            a scalable and efficient solution with meaningful insights for data-driven healthcare
+                            decision-making.</p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1B8Z7ZdSPF7PGc7eZEFXpb0dD50c0x2L4/view" target="_blank" class="btn primary-btn small-btn">Live Demo</a>
+                            <a href="https://github.com/abhilasharana/Patient-Segmentation-for-Preventivee-Healthcare" target="_blank" class="btn secondary-btn small-btn">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reverse">
+                    <div class="project-image">
+                        <!-- Space for Screenshot -->
+                        <img src="project2.png" alt="TPMS Screenshot" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Tire Pressure Monitoring System (TPMS)</h3>
+                        <p class="project-role">Role: Machine Learning Engineer</p>
+                        <p class="project-desc">Developed an intelligent Tire Pressure Monitoring System to predict and
+                            analyze tire pressure using real-time vehicle data such as temperature, speed, load, and
+                            road conditions. Implemented machine learning models to detect anomalies and ensure optimal
+                            tire performance and safety. The system supports proactive maintenance by identifying
+                            potential issues early. Emphasis was placed on building an accurate, efficient, and scalable
+                            solution with a user-friendly interface for practical deployment.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/abhilasharana/TPMS" target="_blank" class="btn secondary-btn small-btn">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- Space for Screenshot -->
+                        <img src="project3.png" alt="Code Editor Screenshot" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Custom Code Editor</h3>
+                        <p class="project-role">Role: Software Developer</p>
+                        <p class="project-desc">Designed and developed a feature-rich custom code editor to enhance
+                            coding efficiency and user experience. Implemented functionalities such as syntax
+                            highlighting, autocomplete using Trie data structure, real-time error detection, and output
+                            display. Built with a user-friendly graphical interface, the editor supports smooth code
+                            execution and customization. The project demonstrates strong understanding of data
+                            structures, GUI development, and the ability to create practical developer tools.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/abhilasharana/code-editor" target="_blank" class="btn secondary-btn small-btn">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="section">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificates-container">
+                <!-- Certificate 1 -->
+                <div class="certificate-card">
+                    <div class="cert-image-preview">
+                        <img src="cert1.png" alt="Python Certificate" class="cert-img">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Learn to Code with Python</h3>
+                        <p>Udemy</p>
+                        <p class="cert-desc" style="display:none;">Mastered foundational and advanced Python programming concepts, including data structures, object-oriented programming, and file handling under expert guidance.</p>
+                        <button class="btn secondary-btn small-btn view-cert-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="certificate-card">
+                    <div class="cert-image-preview">
+                        <img src="cert2.png" alt="ChatGPT Essentials" class="cert-img">
+                    </div>
+                    <div class="cert-info">
+                        <h3>ChatGPT Made Easy: AI Essentials</h3>
+                        <p>Udemy</p>
+                        <p class="cert-desc" style="display:none;">Gained practical knowledge of AI tools, focusing on ChatGPT for productivity, advanced problem-solving, and building intelligent workflows.</p>
+                        <button class="btn secondary-btn small-btn view-cert-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="certificate-card">
+                    <div class="cert-image-preview">
+                        <img src="cert3.png" alt="Advanced R Programming" class="cert-img">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Advanced R Programming</h3>
+                        <p>NPTEL / Swayam</p>
+                        <p class="cert-desc" style="display:none;">Completed comprehensive training in R programming, applying advanced statistical and analytical techniques for business data analysis.</p>
+                        <button class="btn secondary-btn small-btn view-cert-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Certificate 4 -->
+                <div class="certificate-card">
+                    <div class="cert-image-preview">
+                        <img src="cert4.png" alt="Data Structures" class="cert-img">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Fundamentals of Data Structures</h3>
+                        <p>Lovely Professional University</p>
+                        <p class="cert-desc" style="display:none;">Achieved an 'A' Grade in an intensive skill development course on Data Structures, focusing on building efficient, scalable algorithms and projects.</p>
+                        <button class="btn secondary-btn small-btn view-cert-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Certificate 5 -->
+                <div class="certificate-card">
+                    <div class="cert-image-preview">
+                        <img src="cert5.png" alt="Master Generative AI" class="cert-img">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Master Generative AI & Tools</h3>
+                        <p>Udemy</p>
+                        <p class="cert-desc" style="display:none;">Explored the cutting-edge landscape of Generative AI, learning to leverage modern tools for advanced content generation, orchestration, and automation.</p>
+                        <button class="btn secondary-btn small-btn view-cert-btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section dark-section">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-container">
+                <ul class="achievement-list">
+                    <li class="achievement-item">
+                        <span class="achievement-icon">🏆</span>
+                        <p>Designed and implemented multiple end-to-end projects in Machine Learning and Software
+                            Development.</p>
+                    </li>
+                    <li class="achievement-item">
+                        <span class="achievement-icon">💡</span>
+                        <p>Applied technical knowledge to solve real-world challenges in healthcare and automotive
+                            monitoring systems.</p>
+                    </li>
+                    <li class="achievement-item">
+                        <span class="achievement-icon">🚀</span>
+                        <p>Showcased innovation and development skills through the creation of a feature-rich custom
+                            code editor.</p>
+                    </li>
+                    <li class="achievement-item">
+                        <span class="achievement-icon">🎓</span>
+                        <p>Achieved strong academic excellence throughout schooling and undergraduate studies.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section dark-section">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-container">
+                <div class="resume-preview">
+                    <!-- Space for Resume Screenshot -->
+                    <img src="resume_screenshot.png" alt="Resume Preview">
+                </div>
+                <div class="resume-content">
+                    <p>Curious about my full background and experience? Preview my qualifications here or download my
+                        complete resume (CV) to get a comprehensive overview of my technical journey.</p>
+                    <!-- Simply replace "your_resume_file.pdf" with the path to your actual PDF file -->
+                    <a href="Abhilasha_Rana_Resume.pdf" download="Abhilasha_Rana_Resume.pdf"
+                        class="btn primary-btn download-btn">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>I am always open to discussing new projects, creative ideas, or opportunities to be part of your
+                        vision.</p>
+                    <div class="contact-details">
+                        <p><strong>Email:</strong> <a href="mailto:abhilasharana07@gmail.com"
+                                class="contact-link">abhilasharana07@gmail.com</a></p>
+                        <p><strong>Mobile:</strong> <a href="tel:+919015478100" class="contact-link">+91-9015478100</a>
+                        </p>
+                        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/abhilasha-rana-519429295"
+                                target="_blank" class="contact-link">abhilasha-rana-519429295</a></p>
+                        <p><strong>GitHub:</strong> <a href="https://github.com/abhilasharana" target="_blank"
+                                class="contact-link">github.com/abhilasharana</a></p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-img" alt="Certificate Display">
+        <div id="modal-caption"></div>
+    </div>
+</body>
+
+</html>
